@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://5jwxl7kviffc"]
+
+[ext_resource type="Material" uid="uid://bv6ar4hvcwyjw" path="res://shaders/SM_Test.tres" id="1_opbep"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_1sgun"]
+material = ExtResource("1_opbep")
+
+[node name="Node3D" type="Node3D" unique_id=1691143165]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=455003555]
+mesh = SubResource("SphereMesh_1sgun")
